@@ -1,0 +1,20 @@
+{
+  "model": "LLaVA-1.5-13B + LoRA Verifier + Multi-Section Expansion (Category B+C)",
+  "baseline_accuracy": 34.9,
+  "agentic_accuracy": 36.3,
+  "accuracy_improvement": 1.4,
+  "net_recovered_queries": 14,
+  "gross_recovered_queries": 44,
+  "gross_recovered_cat_b": 26,
+  "gross_recovered_cat_c": 18,
+  "degraded_queries": 30,
+  "degraded_cat_b": 20,
+  "degraded_cat_c": 10,
+  "net_cat_b": 6,
+  "net_cat_c": 8,
+  "decision_win_rate_pct": 59.46,
+  "total_ambiguous_triggered": 508,
+  "switched_to_b_count": 195,
+  "multi_section_expanded_count": 313,
+  "runtime_minutes": 52.3
+}

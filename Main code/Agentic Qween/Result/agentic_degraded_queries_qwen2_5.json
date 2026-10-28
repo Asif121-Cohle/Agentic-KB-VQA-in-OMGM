@@ -1,0 +1,74 @@
+[
+  {
+    "data_id": "infoseek_val_00001835",
+    "event": "DEGRADED",
+    "question": "What is the height of this mountain in terms of metre above sea level?",
+    "baseline_pred": "3,307",
+    "agentic_pred": "1875",
+    "ground_truth": "3257",
+    "action": "Switched to Dent de Jaman (Cat B Branch: B)"
+  },
+  {
+    "data_id": "infoseek_val_00013498",
+    "event": "DEGRADED",
+    "question": "what is the date this aircraft took the first flight?",
+    "baseline_pred": "January 10, 1990",
+    "agentic_pred": "August 29, 1970",
+    "ground_truth": "1990|10 1 1991|10 January 1990|10 January 1989|1990 1 10|10 January 1991|1989|1991 January 10|January 10 1990|1 10 1989|1990 January 10|10 1 1990|1989 1 10|10 1 1989|1991|January 10 1989|January 10 1991|1989 January 10|1991 1 10|1 10 1990|1 10 1991",
+    "action": "Switched to McDonnell Douglas DC-10 (Cat B Branch: B)"
+  },
+  {
+    "data_id": "infoseek_val_00032964",
+    "event": "DEGRADED",
+    "question": "What is the closest parent taxonomy of this plant?",
+    "baseline_pred": "Alnus rubra",
+    "agentic_pred": "Betula",
+    "ground_truth": "Alnus|the alder genus|Alder",
+    "action": "Switched to Alnus glutinosa (Cat B Branch: B)"
+  },
+  {
+    "data_id": "infoseek_val_00032976",
+    "event": "DEGRADED",
+    "question": "What is the source that produces this food?",
+    "baseline_pred": "Cacao tree",
+    "agentic_pred": "Sugar",
+    "ground_truth": "cacao tree|Theobroma cacao cacao|Theobroma cacao|chocolate tree|food of the gods|cocoa plant|Theobroma spp|Theobroma species|source of cocoa and chocolate|cacao species|cacao cacao",
+    "action": "Switched to Confectionery (Cat B Branch: B)"
+  },
+  {
+    "data_id": "infoseek_val_00033689",
+    "event": "DEGRADED",
+    "question": "Who is the architect of this lake?",
+    "baseline_pred": "Daniel Libeskind",
+    "agentic_pred": "Unknown",
+    "ground_truth": "Daniyel Libes\u1e33ind|Daniel Libeskind",
+    "action": "Switched to Cernobbio (Cat B Branch: B)"
+  },
+  {
+    "data_id": "infoseek_val_00037629",
+    "event": "DEGRADED",
+    "question": "What is the length of the wingspan in metre of this bird?",
+    "baseline_pred": "0.86",
+    "agentic_pred": "0.72-0.91 m",
+    "ground_truth": "0.82",
+    "action": "Switched to Oystercatcher (Cat B Branch: B)"
+  },
+  {
+    "data_id": "infoseek_val_00040338",
+    "event": "DEGRADED",
+    "question": "What is the height of this vehicle in millimetre?",
+    "baseline_pred": "1200",
+    "agentic_pred": "165 mm",
+    "ground_truth": "1165",
+    "action": "Switched to Lamborghini Gallardo (Cat B Branch: B)"
+  },
+  {
+    "data_id": "infoseek_val_00057379",
+    "event": "DEGRADED",
+    "question": "What is the conservation status of this bird? (The status is assigned by the international union for conservation of nature. Choose one among Endangered,Least Concern,Critically Endangered,extinct species,extinct in the wild,Vulnerable,Near Threatened,Data Deficient)",
+    "baseline_pred": "Least Concern",
+    "agentic_pred": "Data Deficient",
+    "ground_truth": "Least Concern|LC|LR/lc",
+    "action": "Switched to Black-winged stilt (Cat B Branch: B)"
+  }
+]

@@ -1,0 +1,350 @@
+{
+  "recovered_events": [
+    {
+      "qid": "infoseek_val_00000477",
+      "question": "Where is the lake outflow to?",
+      "action": "Switched to Lake Lucerne (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Lake Lucerne)",
+      "old_pred": "Lake Z\u00fcrich",
+      "new_pred": "Reuss",
+      "gt": "Reuss (river)|Reuss|Reuss River"
+    },
+    {
+      "qid": "infoseek_val_00009642",
+      "question": "What is the weight of a female of this bird in gram?",
+      "action": "Switched to Eurasian magpie (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Eurasian magpie)",
+      "old_pred": "141",
+      "new_pred": "182 grams",
+      "gt": "191"
+    },
+    {
+      "qid": "infoseek_val_00013636",
+      "question": "Which body of water is this city located in or next to?",
+      "action": "Switched to Kazan (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Kazan)",
+      "old_pred": "Caspian Sea",
+      "new_pred": "Volga",
+      "gt": "Volga River|Volga|Kazanka|River Volga|Kazanka River"
+    },
+    {
+      "qid": "infoseek_val_00015575",
+      "question": "What was the building or structure prior to the existence of this building?",
+      "action": "Switched to St. Peter's Basilica (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) St. Peter's Basil)",
+      "old_pred": "No information provided.",
+      "new_pred": "Old St. Peter's Basilica",
+      "gt": "Old St. Peter's Basilica"
+    },
+    {
+      "qid": "infoseek_val_00026583",
+      "question": "Which protected area is this place usually located in?",
+      "action": "Switched to Zion National Park (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Zion National Park)",
+      "old_pred": "National Park",
+      "new_pred": "Zion National Park",
+      "gt": "Zion National Park"
+    },
+    {
+      "qid": "infoseek_val_00034294",
+      "question": "What is the area in square kilometre occupied by this lake?",
+      "action": "Switched to Lake Orestiada (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Lake Orestiada)",
+      "old_pred": "100",
+      "new_pred": "28",
+      "gt": "28.7"
+    },
+    {
+      "qid": "infoseek_val_00038068",
+      "question": "Which city or region does this park locate in?",
+      "action": "Switched to Lake Anna State Park (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Lake Anna State Park)",
+      "old_pred": "Vinton County",
+      "new_pred": "Spotsylvania County",
+      "gt": "Virginia, United States|Commonwealth of Virginia|Old Dominion|State of Virginia|VA|Va.|Virginia"
+    },
+    {
+      "qid": "infoseek_val_00038201",
+      "question": "What is the maximum capacity of this aircraft?",
+      "action": "Switched to Embraer EMB 120 Brasilia (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Embraer EMB 1)",
+      "old_pred": "100",
+      "new_pred": "30 passengers",
+      "gt": "30"
+    },
+    {
+      "qid": "infoseek_val_00040088",
+      "question": "Which city or region does this building locate in?",
+      "action": "Switched to Nahargarh Fort (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Nahargarh Fort)",
+      "old_pred": "Alwar",
+      "new_pred": "Jaipur",
+      "gt": "Jaipur|Pink City"
+    },
+    {
+      "qid": "infoseek_val_00040462",
+      "question": "What fields are the person in the image specialized in?",
+      "action": "Switched to Gardener (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Gardener)",
+      "old_pred": "Coffee",
+      "new_pred": "Gardening",
+      "gt": "gardening|iluaiandus|horticulture"
+    },
+    {
+      "qid": "infoseek_val_00041566",
+      "question": "Who is the discoverer or inventor of this object?",
+      "action": "Switched to Antikythera wreck (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Antikythera wreck)",
+      "old_pred": "C. Maurice Yonge",
+      "new_pred": "Jacques-Yves Cousteau",
+      "gt": "\u00c9mile Gagnan|Emile Gagnan|Jacques-Yves Cousteau|Jacques Cousteau"
+    },
+    {
+      "qid": "infoseek_val_00044711",
+      "question": "Who designed this bridge?",
+      "action": "Switched to Franz Joseph Bridge (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Franz Joseph Bridge)",
+      "old_pred": "Josef V\u00e1clav Myslbek",
+      "new_pred": "Rowland Mason Ordish",
+      "gt": "Rowland Mason Ordish"
+    },
+    {
+      "qid": "infoseek_val_00045618",
+      "question": "What country does this lake belong to?",
+      "action": "Switched to Bichelsee (lake) (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Bichelsee (lake)",
+      "old_pred": "Germany",
+      "new_pred": "Switzerland",
+      "gt": "Swiss|Suisse|CHE|Switzerland|Swiss Confederation|Confoederatio Helvetica|Schweiz|CH|SUI|Svizzera"
+    },
+    {
+      "qid": "infoseek_val_00046122",
+      "question": "What is the height of this vehicle in millimetre?",
+      "action": "Switched to Buick Rainier (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Buick Rainier)",
+      "old_pred": "1600",
+      "new_pred": "1700",
+      "gt": "1842"
+    },
+    {
+      "qid": "infoseek_val_00048361",
+      "question": "What is the length of the wingspan in centimetre of this bird?",
+      "action": "Switched to Grey plover (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Grey plover)",
+      "old_pred": "65-67 cm",
+      "new_pred": "71-83 cm",
+      "gt": "77"
+    },
+    {
+      "qid": "infoseek_val_00049064",
+      "question": "What equipment or engine is used by this aircraft to provide power?",
+      "action": "Switched to Fokker 70 (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Fokker 70)",
+      "old_pred": "Turbine",
+      "new_pred": "Rolls-Royce Tay 620 turbofans",
+      "gt": "Rolls-Royce RB183|Rolls-Royce RB.183 Tay|Rolls-Royce RB 183|Rolls-Royce RB.183|Rolls-Royce Tay"
+    },
+    {
+      "qid": "infoseek_val_00053517",
+      "question": "What country does this mountain belong to?",
+      "action": "Switched to Klausen Pass (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Klausen Pass)",
+      "old_pred": "Italy",
+      "new_pred": "Switzerland",
+      "gt": "Swiss|Suisse|CHE|Switzerland|Swiss Confederation|Confoederatio Helvetica|Schweiz|CH|SUI|Svizzera"
+    },
+    {
+      "qid": "infoseek_val_00054646",
+      "question": "What is the sea level in metre of this mountain?",
+      "action": "Switched to Klausen Pass (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Klausen Pass)",
+      "old_pred": "1,278",
+      "new_pred": "1,948 meters",
+      "gt": "1948"
+    },
+    {
+      "qid": "infoseek_val_00055591",
+      "question": "In which year did this bridge officially open?",
+      "action": "Switched to Charles Bridge (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Charles Bridge)",
+      "old_pred": "1876",
+      "new_pred": "1402",
+      "gt": "1402|1403|1401"
+    },
+    {
+      "qid": "infoseek_val_00057540",
+      "question": "What is the closest parent taxonomy of this plant?",
+      "action": "Switched to Tiarella (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Tiarella)",
+      "old_pred": "Tiarella",
+      "new_pred": "Saxifragaceae",
+      "gt": "Saxifragaceae"
+    },
+    {
+      "qid": "infoseek_val_00059546",
+      "question": "What product does this aircraft produce?",
+      "action": "Switched to ATR 72 (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) ATR 72)",
+      "old_pred": "Fairchild-Dornier 328JET",
+      "new_pred": "Airplane",
+      "gt": "fixed-wing powered aircraft|fixed-wing aeroplane|airplanes|plane|aeroplanes|fixed-wing airplane|aeroplane|airplane, aeroplane, plane|planes|powered fixed-wing aircraft|\u2708\ufe0f|airplane"
+    },
+    {
+      "qid": "infoseek_val_00060298",
+      "question": "who/what operates this aircraft?",
+      "action": "Switched to Boeing 767 (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Boeing 767)",
+      "old_pred": "Republic of China Air Force",
+      "new_pred": "Delta Air Lines",
+      "gt": "Delta.com|Delta Air Lines Inc.|DAL|DL|Delta Airlines|Delta Air Lines Inc|Delta Air Lines, Inc.|Delta (airline)|Delta Air Lines Incorporated|Delta Air Lines|British Airways|British Airways plc|Delta Air lines|Delta Air Line|BA|Delta|Delta Air Lines, Inc|@Delta|BAW"
+    },
+    {
+      "qid": "infoseek_val_00062479",
+      "question": "Who is the owner of this object?",
+      "action": "Switched to Compact disc (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Compact disc)",
+      "old_pred": "Philips",
+      "new_pred": "Sony",
+      "gt": "Totsuko|Tokyo Telecommunications Engineering Corporation|Tokyo Tsushin Kogyo K.K.|Sony Corporation (Tokyo)|Sony Corporation|Sony|Sony Corp."
+    },
+    {
+      "qid": "infoseek_val_00063861",
+      "question": "Which city or region does this place locate in?",
+      "action": "Switched to Hong Kong Velodrome (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Hong Kong Velodrome)",
+      "old_pred": "Tseung Kwan O",
+      "new_pred": "Hong Kong",
+      "gt": "Hong Kong Special Administrative Region|Hong Kong, China|HKSAR|\ud83c\udded\ud83c\uddf0|Hong Kong|xiang gang|Hong Kong SAR, China|Hong Kong SAR|hk|China Hong Kong|HK|Hongkong|HKG"
+    },
+    {
+      "qid": "infoseek_val_00065667",
+      "question": "Which city or region does this lake locate in?",
+      "action": "Switched to Katzensee (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Katzensee)",
+      "old_pred": "Province of Belluno",
+      "new_pred": "Canton of Zurich",
+      "gt": "ZH|Canton of Z\u00fcrich|Z\u00fcrich|canton of Zurich|Zurich"
+    },
+    {
+      "qid": "infoseek_val_00068655",
+      "question": "What is the decomposition point of this material (degree Celsius)?",
+      "action": "Switched to Flecainide (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Flecainide)",
+      "old_pred": "100",
+      "new_pred": "250",
+      "gt": "250"
+    },
+    {
+      "qid": "infoseek_val_00072522",
+      "question": "What is the country of origin of this aircraft?",
+      "action": "Switched to Embraer EMB 120 Brasilia (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Embraer EMB 1)",
+      "old_pred": "France",
+      "new_pred": "Brazil",
+      "gt": "br|\ud83c\udde7\ud83c\uddf7|BRA|Brazil|BR|Federative Republic of Brazil"
+    }
+  ],
+  "degraded_events": [
+    {
+      "qid": "infoseek_val_00001835",
+      "question": "What is the height of this mountain in terms of metre above sea level?",
+      "action": "Switched to Dent de Jaman (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Dent de Jaman)",
+      "old_pred": "3,307",
+      "new_pred": "1875 m",
+      "gt": "3257"
+    },
+    {
+      "qid": "infoseek_val_00013568",
+      "question": "Which city or region does this building locate in?",
+      "action": "Switched to Cathedral of Talin (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Cathedral of Talin)",
+      "old_pred": "Aruch",
+      "new_pred": "Talin",
+      "gt": "Aruch"
+    },
+    {
+      "qid": "infoseek_val_00020609",
+      "question": "What is the closest parent taxonomy of this plant?",
+      "action": "Switched to Green algae (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Green algae)",
+      "old_pred": "Araceae",
+      "new_pred": "Charophyta",
+      "gt": "Araceae|arum family"
+    },
+    {
+      "qid": "infoseek_val_00020815",
+      "question": "which mountain range is this mountain belong to?",
+      "action": "Switched to Mount Churchill (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Mount Churchill)",
+      "old_pred": "Alaska Range",
+      "new_pred": "Saint Elias Mountains",
+      "gt": "Alaska Range"
+    },
+    {
+      "qid": "infoseek_val_00021232",
+      "question": "What is the closest upper taxonomy of this plant?",
+      "action": "Switched to Paulownia tomentosa (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Paulownia tomentosa)",
+      "old_pred": "Acer",
+      "new_pred": "Family",
+      "gt": "Acer|maple"
+    },
+    {
+      "qid": "infoseek_val_00027462",
+      "question": "What is this bridge named after?",
+      "action": "Switched to 25 de Abril Bridge (Cat B LoRA: FineTuned\u2192Cand1 | gen: (A) Vasco da Gama Bridge)",
+      "old_pred": "Vasco da Gama",
+      "new_pred": "25 de Abril Bridge",
+      "gt": "Count of Vidigueira|Vasco da Gama"
+    },
+    {
+      "qid": "infoseek_val_00030758",
+      "question": "Who is the founder of the building in the image?",
+      "action": "Switched to Ch\u00e2teau de Chaumont (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Ch\u00e2teau de Chaumont)",
+      "old_pred": "Anne de Montmorency",
+      "new_pred": "Odo I, Count of Blois",
+      "gt": "Anne de Montmorency|Anne de la Tr\u00e9moille, Duc de Montmorency|Anne Montmorency Duc de|Anne, Duc de Montmorency|Constable of France Montmorency"
+    },
+    {
+      "qid": "infoseek_val_00032976",
+      "question": "What is the source that produces this food?",
+      "action": "Switched to Confectionery (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Confectionery)",
+      "old_pred": "Cacao tree",
+      "new_pred": "Sugar cane",
+      "gt": "cacao tree|Theobroma cacao cacao|Theobroma cacao|chocolate tree|food of the gods|cocoa plant|Theobroma spp|Theobroma species|source of cocoa and chocolate|cacao species|cacao cacao"
+    },
+    {
+      "qid": "infoseek_val_00033689",
+      "question": "Who is the architect of this lake?",
+      "action": "Switched to Cernobbio (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Cernobbio)",
+      "old_pred": "Daniel Libeskind",
+      "new_pred": "George W. Bush",
+      "gt": "Daniyel Libes\u1e33ind|Daniel Libeskind"
+    },
+    {
+      "qid": "infoseek_val_00044362",
+      "question": "What is the source that produces this food?",
+      "action": "Switched to Confectionery (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Confectionery)",
+      "old_pred": "Cacao tree",
+      "new_pred": "Sugarcane",
+      "gt": "cacao tree|Theobroma cacao cacao|Theobroma cacao|chocolate tree|food of the gods|cocoa plant|Theobroma spp|Theobroma species|source of cocoa and chocolate|cacao species|cacao cacao"
+    },
+    {
+      "qid": "infoseek_val_00046488",
+      "question": "What is the closest upper taxonomy of this bird?",
+      "action": "Switched to Great grey shrike (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Great grey shrike)",
+      "old_pred": "Lanius ludovicianus",
+      "new_pred": "Family",
+      "gt": "Lanius"
+    },
+    {
+      "qid": "infoseek_val_00054408",
+      "question": "How heavy does this vehicle typically grow up to in terms of kilogram?",
+      "action": "Switched to Lamborghini Hurac\u00e1n (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Lamborghini Hurac\u00e1n)",
+      "old_pred": "1485 kg",
+      "new_pred": "100 kg",
+      "gt": "1520"
+    },
+    {
+      "qid": "infoseek_val_00059249",
+      "question": "Which diocese does this building belong to?",
+      "action": "Switched to Convent Church of San Francisco, Puebla (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Convent Church of San Francisco,)",
+      "old_pred": "Archdiocese of Puebla de los \u00c1ngeles",
+      "new_pred": "Puebla",
+      "gt": "Roman Catholic Archdiocese of Puebla|Catholic Diocese of Tlaxcala|Archdiocese of Puebla|Archdiocese of Puebla de los Angeles|Roman Catholic Archdiocese of Puebla de los Angeles|Catholic Archdiocese of Puebla de los Angeles|Roman Catholic Diocese of Tlaxcala|Diocese of Puebla de los Angeles|Catholic Archdiocese of Puebla|Roman Catholic Diocese of Puebla de los \u00c1ngeles|Catholic Diocese of Puebla de los Angeles|Roman Catholic Diocese of Puebla de los Angeles|former Diocese of Tlaxcala|Diocese of Tlaxcala"
+    },
+    {
+      "qid": "infoseek_val_00066982",
+      "question": "What is the length of this building in metre?",
+      "action": "Switched to Jameh Mosque of Natanz (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Jameh Mosque of Nat)",
+      "old_pred": "109",
+      "new_pred": "37 meters",
+      "gt": "109"
+    },
+    {
+      "qid": "infoseek_val_00071826",
+      "question": "What is the location of this park?",
+      "action": "Switched to Rodrigo de Freitas Lagoon (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Rodrigo de Freitas L)",
+      "old_pred": "S\u00e3o Crist\u00f3v\u00e3o neighborhood, Rio de Janeiro, Brazil",
+      "new_pred": "Jardim de Alah",
+      "gt": "S\u00e3o Crist\u00f3v\u00e3o"
+    },
+    {
+      "qid": "infoseek_val_00072530",
+      "question": "What is the maximum capacity of this aircraft?",
+      "action": "Switched to Water landing (Cat B LoRA: FineTuned\u2192Cand2 | gen: (B) Water landing)",
+      "old_pred": "19",
+      "new_pred": "100",
+      "gt": "19"
+    }
+  ]
+}

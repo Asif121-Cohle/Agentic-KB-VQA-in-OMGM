@@ -1,0 +1,119 @@
+[
+  {
+    "data_id": "infoseek_val_00000289",
+    "event": "RECOVERED",
+    "question": "how many metre is the wingspan of this bird?",
+    "baseline_pred": "132",
+    "agentic_pred": "1.25",
+    "ground_truth": "1.34",
+    "action": "Switched to European herring gull (Cat B Branch: B)"
+  },
+  {
+    "data_id": "infoseek_val_00001697",
+    "event": "RECOVERED",
+    "question": "What country does this lake belong to?",
+    "baseline_pred": "China",
+    "agentic_pred": "India",
+    "ground_truth": "Aryavratt|IND|Bharat|Bharatvarsh|India|\ud83c\uddee\ud83c\uddf3|Republic of India|Hindustan|IN|in",
+    "action": "Switched to Tso Moriri (Cat B Branch: B)"
+  },
+  {
+    "data_id": "infoseek_val_00010168",
+    "event": "RECOVERED",
+    "question": "What is the closest parent taxonomy of this plant?",
+    "baseline_pred": "Hedeoma pulegioides",
+    "agentic_pred": "Mentha",
+    "ground_truth": "menta|mints|Mentha|mint",
+    "action": "Switched to Mentha canadensis (Cat B Branch: B)"
+  },
+  {
+    "data_id": "infoseek_val_00028559",
+    "event": "RECOVERED",
+    "question": "which mountain range is this mountain belong to?",
+    "baseline_pred": "Dolomiti lucane",
+    "agentic_pred": "Jura Mountains",
+    "ground_truth": "Jura mountains|Jura|Jura Mountains",
+    "action": "Switched to Le Reculet (Cat B Branch: B)"
+  },
+  {
+    "data_id": "infoseek_val_00028622",
+    "event": "RECOVERED",
+    "question": "Which country does this animal come from?",
+    "baseline_pred": "Spain",
+    "agentic_pred": "United States",
+    "ground_truth": "America|the States|CA|Dominion of Canada|the USA|United States|'Merica|the U.S.|U. S. A.|U.S.A.|the United States|the US|Canada|US|CAN|U.S.|'Murica|USA|British North America|the United States of America|United States of America|U. S.|US of A|U.S",
+    "action": "Switched to Mustang (Cat B Branch: B)"
+  },
+  {
+    "data_id": "infoseek_val_00032516",
+    "event": "RECOVERED",
+    "question": "Who is the discoverer or inventor of this item?",
+    "baseline_pred": "Lucien Vidi",
+    "agentic_pred": "Daniel Gabriel Fahrenheit",
+    "ground_truth": "Hero of Alexandria|Gabriel Daniel Fahrenheit|Daniel Gabriel Fahrenheit|Hero",
+    "action": "Switched to Thermometer (Cat B Branch: B)"
+  },
+  {
+    "data_id": "infoseek_val_00038201",
+    "event": "RECOVERED",
+    "question": "What is the maximum capacity of this aircraft?",
+    "baseline_pred": "100",
+    "agentic_pred": "30 passengers",
+    "ground_truth": "30",
+    "action": "Switched to Embraer EMB 120 Brasilia (Cat B Branch: B)"
+  },
+  {
+    "data_id": "infoseek_val_00040462",
+    "event": "RECOVERED",
+    "question": "What fields are the person in the image specialized in?",
+    "baseline_pred": "Coffee",
+    "agentic_pred": "Gardening",
+    "ground_truth": "gardening|iluaiandus|horticulture",
+    "action": "Switched to Gardener (Cat B Branch: B)"
+  },
+  {
+    "data_id": "infoseek_val_00041566",
+    "event": "RECOVERED",
+    "question": "Who is the discoverer or inventor of this object?",
+    "baseline_pred": "C. Maurice Yonge",
+    "agentic_pred": "Jacques-Yves Cousteau",
+    "ground_truth": "\u00c9mile Gagnan|Emile Gagnan|Jacques-Yves Cousteau|Jacques Cousteau",
+    "action": "Switched to Antikythera wreck (Cat B Branch: B)"
+  },
+  {
+    "data_id": "infoseek_val_00062479",
+    "event": "RECOVERED",
+    "question": "Who is the owner of this object?",
+    "baseline_pred": "Philips",
+    "agentic_pred": "Philips and Sony",
+    "ground_truth": "Totsuko|Tokyo Telecommunications Engineering Corporation|Tokyo Tsushin Kogyo K.K.|Sony Corporation (Tokyo)|Sony Corporation|Sony|Sony Corp.",
+    "action": "Switched to Compact disc (Cat B Branch: B)"
+  },
+  {
+    "data_id": "infoseek_val_00066856",
+    "event": "RECOVERED",
+    "question": "What country does this place belong to?",
+    "baseline_pred": "China",
+    "agentic_pred": "Canada",
+    "ground_truth": "Canada|CAN|CA|Dominion of Canada|British North America",
+    "action": "Switched to TD Tower (Edmonton) (Cat B Branch: B)"
+  },
+  {
+    "data_id": "infoseek_val_00068665",
+    "event": "RECOVERED",
+    "question": "Who is the developer of this aircraft?",
+    "baseline_pred": "Fokker",
+    "agentic_pred": "Dornier",
+    "ground_truth": "Dornier GmbH|Dornier Flugzeugwerke|Dornier Aircraft Works|Dornier",
+    "action": "Switched to Dornier 328 (Cat B Branch: B)"
+  },
+  {
+    "data_id": "infoseek_val_00072522",
+    "event": "RECOVERED",
+    "question": "What is the country of origin of this aircraft?",
+    "baseline_pred": "France",
+    "agentic_pred": "Brazil",
+    "ground_truth": "br|\ud83c\udde7\ud83c\uddf7|BRA|Brazil|BR|Federative Republic of Brazil",
+    "action": "Switched to Embraer EMB 120 Brasilia (Cat B Branch: B)"
+  }
+]

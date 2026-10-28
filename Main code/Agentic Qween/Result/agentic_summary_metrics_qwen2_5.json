@@ -1,0 +1,21 @@
+{
+  "model": "Qwen/Qwen2.5-VL-7B-Instruct",
+  "backend": "Transformers Qwen2_5_VLForConditionalGeneration (4-bit BnB, device_map=auto)",
+  "tau": 0.025,
+  "total_queries": 1000,
+  "ambiguous_queries": 508,
+  "fast_path_queries": 492,
+  "fast_path_ratio": 0.492,
+  "baseline_accuracy": 35.699999999999996,
+  "agentic_accuracy": 36.5,
+  "net_gain": 0.8000000000000043,
+  "net_recovered_queries": 13,
+  "cat_b_recoveries": 13,
+  "cat_c_recoveries": 0,
+  "cat_d_recoveries": 0,
+  "degraded_queries": 8,
+  "net_recovery_balance": 5,
+  "switched_to_b_count": 91,
+  "refreshed_c_count": 0,
+  "execution_time_seconds": 1207.4912559986115
+}

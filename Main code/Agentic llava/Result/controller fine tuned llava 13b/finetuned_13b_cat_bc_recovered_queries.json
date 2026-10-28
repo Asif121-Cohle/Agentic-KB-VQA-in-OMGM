@@ -1,0 +1,672 @@
+{
+  "recovered_events": [
+    {
+      "qid": "infoseek_val_00000289",
+      "category": "Category C (Multi-Section)",
+      "question": "how many metre is the wingspan of this bird?",
+      "action": "Kept Glaucous gull + Expanded Top-2 Sections (Cat C)",
+      "old_pred": "132",
+      "new_pred": "1.32 meters",
+      "gt": "1.34"
+    },
+    {
+      "qid": "infoseek_val_00000477",
+      "category": "Category B (Candidate 2)",
+      "question": "Where is the lake outflow to?",
+      "action": "Switched to Lake Lucerne (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Lake Lucerne)",
+      "old_pred": "Lake Z\u00fcrich",
+      "new_pred": "Reuss",
+      "gt": "Reuss (river)|Reuss|Reuss River"
+    },
+    {
+      "qid": "infoseek_val_00009642",
+      "category": "Category B (Candidate 2)",
+      "question": "What is the weight of a female of this bird in gram?",
+      "action": "Switched to Eurasian magpie (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Eurasian magpie)",
+      "old_pred": "141",
+      "new_pred": "182-214 g",
+      "gt": "191"
+    },
+    {
+      "qid": "infoseek_val_00010168",
+      "category": "Category C (Multi-Section)",
+      "question": "What is the closest parent taxonomy of this plant?",
+      "action": "Kept Mentha pulegium + Expanded Top-2 Sections (Cat C)",
+      "old_pred": "Hedeoma pulegioides",
+      "new_pred": "Mint",
+      "gt": "menta|mints|Mentha|mint"
+    },
+    {
+      "qid": "infoseek_val_00013636",
+      "category": "Category C (Multi-Section)",
+      "question": "Which body of water is this city located in or next to?",
+      "action": "Kept Kul Sharif Mosque + Expanded Top-2 Sections (Cat C)",
+      "old_pred": "Caspian Sea",
+      "new_pred": "Volga River",
+      "gt": "Volga River|Volga|Kazanka|River Volga|Kazanka River"
+    },
+    {
+      "qid": "infoseek_val_00015575",
+      "category": "Category B (Candidate 2)",
+      "question": "What was the building or structure prior to the existence of this building?",
+      "action": "Switched to St. Peter's Basilica (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) St. Peter's Basil)",
+      "old_pred": "No information provided.",
+      "new_pred": "Old St. Peter's Basilica",
+      "gt": "Old St. Peter's Basilica"
+    },
+    {
+      "qid": "infoseek_val_00015852",
+      "category": "Category B (Candidate 2)",
+      "question": "What is the highest observed lifespan of this plant?",
+      "action": "Switched to Sequoia National Park (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Sequoia National Park)",
+      "old_pred": "2,000 years",
+      "new_pred": "3,200 years",
+      "gt": "3266"
+    },
+    {
+      "qid": "infoseek_val_00019508",
+      "category": "Category C (Multi-Section)",
+      "question": "What is this bridge named after?",
+      "action": "Kept Charles Bridge + Expanded Top-2 Sections (Cat C)",
+      "old_pred": "Charles",
+      "new_pred": "Charles IV",
+      "gt": "Charles IV|Holy Roman Emperor Karl IV|Karl von Luxemburg|Karl IV.|Charles of Luxembourg|Holy Roman Emperor Charles IV"
+    },
+    {
+      "qid": "infoseek_val_00020610",
+      "category": "Category C (Multi-Section)",
+      "question": "What is the height of this island in terms of metre above sea level?",
+      "action": "Kept Ailsa Craig + Expanded Top-2 Sections (Cat C)",
+      "old_pred": "40",
+      "new_pred": "340",
+      "gt": "338"
+    },
+    {
+      "qid": "infoseek_val_00021794",
+      "category": "Category B (Candidate 2)",
+      "question": "What is the time zone of this island?",
+      "action": "Switched to Alimia (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Alimia)",
+      "old_pred": "The time zone of the island is not provided in the context.",
+      "new_pred": "Eastern European Time",
+      "gt": "CEST|utc+2|UTC+02:00|South African Standard Time|Eastern European Time|West Africa Summer Time|Israel Standard Time|Central European Summer Time|Central Africa Time"
+    },
+    {
+      "qid": "infoseek_val_00021939",
+      "category": "Category B (Candidate 2)",
+      "question": "Which diocese does this building belong to?",
+      "action": "Switched to Baclayon Church (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Baclayon Church)",
+      "old_pred": "San Agustin Church (Lubao)",
+      "new_pred": "Diocese of Tagbilaran",
+      "gt": "Roman Catholic Diocese of Tagbilaran|Diocese of Tagbilaran"
+    },
+    {
+      "qid": "infoseek_val_00025688",
+      "category": "Category C (Multi-Section)",
+      "question": "Which city or region does this building locate in?",
+      "action": "Kept Temple of Athena (Paestum) + Expanded Top-2 Sections (Cat C)",
+      "old_pred": "Province of Belluno",
+      "new_pred": "Capaccio Paestum",
+      "gt": "Capaccio Paestum|Capaccio"
+    },
+    {
+      "qid": "infoseek_val_00025716",
+      "category": "Category C (Multi-Section)",
+      "question": "which mountain range is this mountain belong to?",
+      "action": "Kept Alpstein + Expanded Top-2 Sections (Cat C)",
+      "old_pred": "Alpstein",
+      "new_pred": "Appenzell Alps",
+      "gt": "Appenzell Alps"
+    },
+    {
+      "qid": "infoseek_val_00026583",
+      "category": "Category C (Multi-Section)",
+      "question": "Which protected area is this place usually located in?",
+      "action": "Kept Zion Canyon + Expanded Top-2 Sections (Cat C)",
+      "old_pred": "National Park",
+      "new_pred": "Zion National Park",
+      "gt": "Zion National Park"
+    },
+    {
+      "qid": "infoseek_val_00028622",
+      "category": "Category B (Candidate 2)",
+      "question": "Which country does this animal come from?",
+      "action": "Switched to Mustang (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Mustang)",
+      "old_pred": "Spain",
+      "new_pred": "United States",
+      "gt": "America|the States|CA|Dominion of Canada|the USA|United States|'Merica|the U.S.|U. S. A.|U.S.A.|the United States|the US|Canada|US|CAN|U.S.|'Murica|USA|British North America|the United States of America|United States of America|U. S.|US of A|U.S"
+    },
+    {
+      "qid": "infoseek_val_00028869",
+      "category": "Category C (Multi-Section)",
+      "question": "Which city or region does this river locate in?",
+      "action": "Kept Sumidero Canyon + Expanded Top-2 Sections (Cat C)",
+      "old_pred": "San Fernando",
+      "new_pred": "Chiapas",
+      "gt": "Chiapas"
+    },
+    {
+      "qid": "infoseek_val_00032919",
+      "category": "Category C (Multi-Section)",
+      "question": "What is this bridge named after?",
+      "action": "Kept Pont au Change + Expanded Top-2 Sections (Cat C)",
+      "old_pred": "Goldsmiths",
+      "new_pred": "Goldsmiths and money changers",
+      "gt": "money changer"
+    },
+    {
+      "qid": "infoseek_val_00033048",
+      "category": "Category B (Candidate 2)",
+      "question": "Which city or region does this place locate in?",
+      "action": "Switched to Calgary (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Calgary)",
+      "old_pred": "Edmonton",
+      "new_pred": "Alberta",
+      "gt": "AB|Alta.|Province of Alberta|Alberta|CA-AB"
+    },
+    {
+      "qid": "infoseek_val_00035731",
+      "category": "Category C (Multi-Section)",
+      "question": "What is the height (in metre) of the lamp at this building?",
+      "action": "Kept Cabo da Roca Lighthouse + Expanded Top-2 Sections (Cat C)",
+      "old_pred": "22",
+      "new_pred": "165",
+      "gt": "165"
+    },
+    {
+      "qid": "infoseek_val_00036094",
+      "category": "Category B (Candidate 2)",
+      "question": "Which city or region does this park locate in?",
+      "action": "Switched to Legoland Windsor Resort (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Legoland Windsor Res)",
+      "old_pred": "Brussels",
+      "new_pred": "Windsor",
+      "gt": "Windsor, Berkshire|Windsor"
+    },
+    {
+      "qid": "infoseek_val_00037100",
+      "category": "Category C (Multi-Section)",
+      "question": "Who is the owner of this building?",
+      "action": "Kept Monte Carlo Casino + Expanded Top-2 Sections (Cat C)",
+      "old_pred": "Prince of Monaco",
+      "new_pred": "Soci\u00e9t\u00e9 des bains de mer de Monaco",
+      "gt": "Monaco Sea Baths Society|Soci\u00e9t\u00e9 des Bains de Mer et du Cercle des Etrangers de Monaco|Societe des bains de mer de Monaco|SBM|Society of Sea Baths and of the Circle of Foreigners in Monaco|Society of Sea Baths|Soci\u00e9t\u00e9 des bains de mer de Monaco"
+    },
+    {
+      "qid": "infoseek_val_00037591",
+      "category": "Category C (Multi-Section)",
+      "question": "Which diocese does this building belong to?",
+      "action": "Kept Baclayon Church + Expanded Top-2 Sections (Cat C)",
+      "old_pred": "Tagbilaran",
+      "new_pred": "Diocese of Tagbilaran",
+      "gt": "Roman Catholic Diocese of Tagbilaran|Diocese of Tagbilaran"
+    },
+    {
+      "qid": "infoseek_val_00038068",
+      "category": "Category B (Candidate 2)",
+      "question": "Which city or region does this park locate in?",
+      "action": "Switched to Lake Anna State Park (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Lake Anna State Park)",
+      "old_pred": "Vinton County",
+      "new_pred": "Spotsylvania County",
+      "gt": "Virginia, United States|Commonwealth of Virginia|Old Dominion|State of Virginia|VA|Va.|Virginia"
+    },
+    {
+      "qid": "infoseek_val_00038201",
+      "category": "Category B (Candidate 2)",
+      "question": "What is the maximum capacity of this aircraft?",
+      "action": "Switched to Embraer EMB 120 Brasilia (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Embraer EMB 1)",
+      "old_pred": "100",
+      "new_pred": "30 passengers",
+      "gt": "30"
+    },
+    {
+      "qid": "infoseek_val_00040088",
+      "category": "Category B (Candidate 2)",
+      "question": "Which city or region does this building locate in?",
+      "action": "Switched to Nahargarh Fort (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Nahargarh Fort)",
+      "old_pred": "Alwar",
+      "new_pred": "Jaipur",
+      "gt": "Jaipur|Pink City"
+    },
+    {
+      "qid": "infoseek_val_00040462",
+      "category": "Category B (Candidate 2)",
+      "question": "What fields are the person in the image specialized in?",
+      "action": "Switched to Gardener (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Gardener)",
+      "old_pred": "Coffee",
+      "new_pred": "Gardening",
+      "gt": "gardening|iluaiandus|horticulture"
+    },
+    {
+      "qid": "infoseek_val_00041566",
+      "category": "Category B (Candidate 2)",
+      "question": "Who is the discoverer or inventor of this object?",
+      "action": "Switched to Antikythera wreck (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Antikythera wreck)",
+      "old_pred": "C. Maurice Yonge",
+      "new_pred": "Jacques-Yves Cousteau",
+      "gt": "\u00c9mile Gagnan|Emile Gagnan|Jacques-Yves Cousteau|Jacques Cousteau"
+    },
+    {
+      "qid": "infoseek_val_00041791",
+      "category": "Category B (Candidate 2)",
+      "question": "What is the sea level in metre of this mountain?",
+      "action": "Switched to Pirin National Park (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Pirin National Park)",
+      "old_pred": "2591",
+      "new_pred": "2914",
+      "gt": "2925"
+    },
+    {
+      "qid": "infoseek_val_00044711",
+      "category": "Category C (Multi-Section)",
+      "question": "Who designed this bridge?",
+      "action": "Kept Palack\u00fd Bridge + Expanded Top-2 Sections (Cat C)",
+      "old_pred": "Josef V\u00e1clav Myslbek",
+      "new_pred": "Rowland Mason Ordish",
+      "gt": "Rowland Mason Ordish"
+    },
+    {
+      "qid": "infoseek_val_00044936",
+      "category": "Category B (Candidate 2)",
+      "question": "Which city or region does this river locate in?",
+      "action": "Switched to Sumidero Canyon (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Sumidero Canyon)",
+      "old_pred": "Ahuachap\u00e1n Department",
+      "new_pred": "Chiapas",
+      "gt": "Chiapas"
+    },
+    {
+      "qid": "infoseek_val_00046122",
+      "category": "Category C (Multi-Section)",
+      "question": "What is the height of this vehicle in millimetre?",
+      "action": "Kept Buick Enclave + Expanded Top-2 Sections (Cat C)",
+      "old_pred": "1600",
+      "new_pred": "1700",
+      "gt": "1842"
+    },
+    {
+      "qid": "infoseek_val_00048361",
+      "category": "Category B (Candidate 2)",
+      "question": "What is the length of the wingspan in centimetre of this bird?",
+      "action": "Switched to Grey plover (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Grey plover)",
+      "old_pred": "65-67 cm",
+      "new_pred": "71-83 cm",
+      "gt": "77"
+    },
+    {
+      "qid": "infoseek_val_00049064",
+      "category": "Category C (Multi-Section)",
+      "question": "What equipment or engine is used by this aircraft to provide power?",
+      "action": "Kept Fokker 100 + Expanded Top-2 Sections (Cat C)",
+      "old_pred": "Turbine",
+      "new_pred": "Rolls-Royce Tay turbofans",
+      "gt": "Rolls-Royce RB183|Rolls-Royce RB.183 Tay|Rolls-Royce RB 183|Rolls-Royce RB.183|Rolls-Royce Tay"
+    },
+    {
+      "qid": "infoseek_val_00053517",
+      "category": "Category B (Candidate 2)",
+      "question": "What country does this mountain belong to?",
+      "action": "Switched to Klausen Pass (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Klausen Pass)",
+      "old_pred": "Italy",
+      "new_pred": "Switzerland",
+      "gt": "Swiss|Suisse|CHE|Switzerland|Swiss Confederation|Confoederatio Helvetica|Schweiz|CH|SUI|Svizzera"
+    },
+    {
+      "qid": "infoseek_val_00055591",
+      "category": "Category B (Candidate 2)",
+      "question": "In which year did this bridge officially open?",
+      "action": "Switched to Charles Bridge (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Charles Bridge)",
+      "old_pred": "1876",
+      "new_pred": "1402",
+      "gt": "1402|1403|1401"
+    },
+    {
+      "qid": "infoseek_val_00057540",
+      "category": "Category B (Candidate 2)",
+      "question": "What is the closest parent taxonomy of this plant?",
+      "action": "Switched to Tiarella (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Tiarella)",
+      "old_pred": "Tiarella",
+      "new_pred": "Saxifragaceae",
+      "gt": "Saxifragaceae"
+    },
+    {
+      "qid": "infoseek_val_00057988",
+      "category": "Category C (Multi-Section)",
+      "question": "what is the date this aircraft took the first flight?",
+      "action": "Kept ATR 72 + Expanded Top-2 Sections (Cat C)",
+      "old_pred": "8 July 2015",
+      "new_pred": "27 October 1988",
+      "gt": "27 10 1987|10 27 1988|1988 10 27|1989|10 27 1989|October 27 1987|27 October 1988|27 October 1987|27 October 1989|1987 October 27|1988|1989 October 27|27 10 1989|1987 10 27|10 27 1987|October 27 1988|1988 October 27|1987|1989 10 27|October 27 1989|27 10 1988"
+    },
+    {
+      "qid": "infoseek_val_00060298",
+      "category": "Category B (Candidate 2)",
+      "question": "who/what operates this aircraft?",
+      "action": "Switched to Boeing 767 (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Boeing 767)",
+      "old_pred": "Republic of China Air Force",
+      "new_pred": "Delta Air Lines",
+      "gt": "Delta.com|Delta Air Lines Inc.|DAL|DL|Delta Airlines|Delta Air Lines Inc|Delta Air Lines, Inc.|Delta (airline)|Delta Air Lines Incorporated|Delta Air Lines|British Airways|British Airways plc|Delta Air lines|Delta Air Line|BA|Delta|Delta Air Lines, Inc|@Delta|BAW"
+    },
+    {
+      "qid": "infoseek_val_00060925",
+      "category": "Category B (Candidate 2)",
+      "question": "What is the area in square kilometre occupied by this island?",
+      "action": "Switched to Lindisfarne (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Lindisfarne)",
+      "old_pred": "100",
+      "new_pred": "4.0",
+      "gt": "4"
+    },
+    {
+      "qid": "infoseek_val_00062479",
+      "category": "Category B (Candidate 2)",
+      "question": "Who is the owner of this object?",
+      "action": "Switched to Compact disc (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Compact disc)",
+      "old_pred": "Philips",
+      "new_pred": "Sony",
+      "gt": "Totsuko|Tokyo Telecommunications Engineering Corporation|Tokyo Tsushin Kogyo K.K.|Sony Corporation (Tokyo)|Sony Corporation|Sony|Sony Corp."
+    },
+    {
+      "qid": "infoseek_val_00063861",
+      "category": "Category B (Candidate 2)",
+      "question": "Which city or region does this place locate in?",
+      "action": "Switched to Hong Kong Velodrome (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Hong Kong Velodrome)",
+      "old_pred": "Tseung Kwan O",
+      "new_pred": "Hong Kong",
+      "gt": "Hong Kong Special Administrative Region|Hong Kong, China|HKSAR|\ud83c\udded\ud83c\uddf0|Hong Kong|xiang gang|Hong Kong SAR, China|Hong Kong SAR|hk|China Hong Kong|HK|Hongkong|HKG"
+    },
+    {
+      "qid": "infoseek_val_00065667",
+      "category": "Category B (Candidate 2)",
+      "question": "Which city or region does this lake locate in?",
+      "action": "Switched to Katzensee (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Katzensee)",
+      "old_pred": "Province of Belluno",
+      "new_pred": "Canton of Z\u00fcrich",
+      "gt": "ZH|Canton of Z\u00fcrich|Z\u00fcrich|canton of Zurich|Zurich"
+    },
+    {
+      "qid": "infoseek_val_00071549",
+      "category": "Category C (Multi-Section)",
+      "question": "What is this mountain named after?",
+      "action": "Kept Denali + Expanded Top-2 Sections (Cat C)",
+      "old_pred": "Denali",
+      "new_pred": "William McKinley",
+      "gt": "W. McKinley|President McKinley|W. McKinley, Jr.|President William McKinley|William M'Kinley|William McKinley, Jr.|William McKinley"
+    },
+    {
+      "qid": "infoseek_val_00072522",
+      "category": "Category B (Candidate 2)",
+      "question": "What is the country of origin of this aircraft?",
+      "action": "Switched to Embraer EMB 120 Brasilia (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Embraer EMB 1)",
+      "old_pred": "France",
+      "new_pred": "Brazil",
+      "gt": "br|\ud83c\udde7\ud83c\uddf7|BRA|Brazil|BR|Federative Republic of Brazil"
+    }
+  ],
+  "degraded_events": [
+    {
+      "qid": "infoseek_val_00001835",
+      "category": "Category B (Candidate 2)",
+      "question": "What is the height of this mountain in terms of metre above sea level?",
+      "action": "Switched to Dent de Jaman (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Dent de Jaman)",
+      "old_pred": "3,307",
+      "new_pred": "1875",
+      "gt": "3257"
+    },
+    {
+      "qid": "infoseek_val_00003647",
+      "category": "Category C (Multi-Section)",
+      "question": "Which city or region does this place locate in?",
+      "action": "Kept Charlecote Park + Expanded Top-2 Sections (Cat C)",
+      "old_pred": "Charlecote",
+      "new_pred": "Warwickshire",
+      "gt": "Wellesbourne (parish)|Wellesbourne and Walton|Charlecote, Warwickshire|Wellesbourne and Walton, Warwickshire|Charlecote|Wellesbourne|Wellesbourne and Walton (civil parish), Warwickshire"
+    },
+    {
+      "qid": "infoseek_val_00005373",
+      "category": "Category B (Candidate 2)",
+      "question": "Which city or region does this city locate in?",
+      "action": "Switched to Tobolsk (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Tobolsk)",
+      "old_pred": "Tatarstan",
+      "new_pred": "Tyumen Oblast",
+      "gt": "Tatar Republic|Tatariya|Republic of Tatarstan|Tatarstan Republic|Tatarstan|Tataria"
+    },
+    {
+      "qid": "infoseek_val_00013568",
+      "category": "Category B (Candidate 2)",
+      "question": "Which city or region does this building locate in?",
+      "action": "Switched to Cathedral of Talin (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Cathedral of Talin)",
+      "old_pred": "Aruch",
+      "new_pred": "Aragatsotn Province",
+      "gt": "Aruch"
+    },
+    {
+      "qid": "infoseek_val_00014387",
+      "category": "Category C (Multi-Section)",
+      "question": "What is the closest parent taxonomy of this insect?",
+      "action": "Kept Sympetrum rubicundulum + Expanded Top-2 Sections (Cat C)",
+      "old_pred": "Sympetrum internum",
+      "new_pred": "Libellulidae",
+      "gt": "Sympetrum|Meadowhawks|Darters"
+    },
+    {
+      "qid": "infoseek_val_00019869",
+      "category": "Category C (Multi-Section)",
+      "question": "Which government has executive power of this facility?",
+      "action": "Kept Montauk County Park + Expanded Top-2 Sections (Cat C)",
+      "old_pred": "State",
+      "new_pred": "Suffolk County",
+      "gt": "state|state (polity)"
+    },
+    {
+      "qid": "infoseek_val_00020609",
+      "category": "Category B (Candidate 2)",
+      "question": "What is the closest parent taxonomy of this plant?",
+      "action": "Switched to Green algae (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Green algae)",
+      "old_pred": "Araceae",
+      "new_pred": "Viridiplantae",
+      "gt": "Araceae|arum family"
+    },
+    {
+      "qid": "infoseek_val_00020815",
+      "category": "Category B (Candidate 2)",
+      "question": "which mountain range is this mountain belong to?",
+      "action": "Switched to Mount Churchill (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Mount Churchill)",
+      "old_pred": "Alaska Range",
+      "new_pred": "Saint Elias Mountains",
+      "gt": "Alaska Range"
+    },
+    {
+      "qid": "infoseek_val_00030758",
+      "category": "Category B (Candidate 2)",
+      "question": "Who is the founder of the building in the image?",
+      "action": "Switched to Ch\u00e2teau de Chaumont (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Ch\u00e2teau de Chaumont)",
+      "old_pred": "Anne de Montmorency",
+      "new_pred": "Odo I, Count of Blois",
+      "gt": "Anne de Montmorency|Anne de la Tr\u00e9moille, Duc de Montmorency|Anne Montmorency Duc de|Anne, Duc de Montmorency|Constable of France Montmorency"
+    },
+    {
+      "qid": "infoseek_val_00032976",
+      "category": "Category B (Candidate 2)",
+      "question": "What is the source that produces this food?",
+      "action": "Switched to Confectionery (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Confectionery)",
+      "old_pred": "Cacao tree",
+      "new_pred": "Sugar",
+      "gt": "cacao tree|Theobroma cacao cacao|Theobroma cacao|chocolate tree|food of the gods|cocoa plant|Theobroma spp|Theobroma species|source of cocoa and chocolate|cacao species|cacao cacao"
+    },
+    {
+      "qid": "infoseek_val_00033053",
+      "category": "Category B (Candidate 2)",
+      "question": "Which city or region does this mountain locate in?",
+      "action": "Switched to Ritzlihorn (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Ritzlihorn)",
+      "old_pred": "Canton of Vaud",
+      "new_pred": "Bern",
+      "gt": "Canton of Vaud|Canton de Vaud|Vaud|VD"
+    },
+    {
+      "qid": "infoseek_val_00033382",
+      "category": "Category C (Multi-Section)",
+      "question": "What is the closest upper taxonomy of this plant?",
+      "action": "Kept Citron + Expanded Top-2 Sections (Cat C)",
+      "old_pred": "Citrus medica",
+      "new_pred": "Rutaceae",
+      "gt": "Citrus"
+    },
+    {
+      "qid": "infoseek_val_00033689",
+      "category": "Category B (Candidate 2)",
+      "question": "Who is the architect of this lake?",
+      "action": "Switched to Cernobbio (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Cernobbio)",
+      "old_pred": "Daniel Libeskind",
+      "new_pred": "Unknown",
+      "gt": "Daniyel Libes\u1e33ind|Daniel Libeskind"
+    },
+    {
+      "qid": "infoseek_val_00036485",
+      "category": "Category B (Candidate 2)",
+      "question": "In which year was this building officially closed?",
+      "action": "Switched to Lviv (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Lviv)",
+      "old_pred": "1835",
+      "new_pred": "1648",
+      "gt": "1938|1939|1940"
+    },
+    {
+      "qid": "infoseek_val_00040338",
+      "category": "Category C (Multi-Section)",
+      "question": "What is the height of this vehicle in millimetre?",
+      "action": "Kept Lamborghini Hurac\u00e1n + Expanded Top-2 Sections (Cat C)",
+      "old_pred": "1200",
+      "new_pred": "125 cm",
+      "gt": "1165"
+    },
+    {
+      "qid": "infoseek_val_00041988",
+      "category": "Category C (Multi-Section)",
+      "question": "What is this place named after?",
+      "action": "Kept Hierapolis + Expanded Top-2 Sections (Cat C)",
+      "old_pred": "Hierapolis",
+      "new_pred": "Philip",
+      "gt": "Hiera"
+    },
+    {
+      "qid": "infoseek_val_00044170",
+      "category": "Category B (Candidate 2)",
+      "question": "Who designed this building?",
+      "action": "Switched to Scottish National Gallery of Modern Art (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Scottish National Gallery of Modern Art)",
+      "old_pred": "William Henry Playfair",
+      "new_pred": "Thomas Hamilton",
+      "gt": "William Henry Playfair"
+    },
+    {
+      "qid": "infoseek_val_00044362",
+      "category": "Category B (Candidate 2)",
+      "question": "What is the source that produces this food?",
+      "action": "Switched to Confectionery (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Confectionery)",
+      "old_pred": "Cacao tree",
+      "new_pred": "Sugar",
+      "gt": "cacao tree|Theobroma cacao cacao|Theobroma cacao|chocolate tree|food of the gods|cocoa plant|Theobroma spp|Theobroma species|source of cocoa and chocolate|cacao species|cacao cacao"
+    },
+    {
+      "qid": "infoseek_val_00046488",
+      "category": "Category B (Candidate 2)",
+      "question": "What is the closest upper taxonomy of this bird?",
+      "action": "Switched to Great grey shrike (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Great grey shrike)",
+      "old_pred": "Lanius ludovicianus",
+      "new_pred": "Corvoidea",
+      "gt": "Lanius"
+    },
+    {
+      "qid": "infoseek_val_00048452",
+      "category": "Category B (Candidate 2)",
+      "question": "What is the country of origin of this aircraft?",
+      "action": "Switched to Morris Air (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Morris Air)",
+      "old_pred": "Brazil",
+      "new_pred": "United States",
+      "gt": "br|\ud83c\udde7\ud83c\uddf7|BRA|Brazil|BR|Federative Republic of Brazil"
+    },
+    {
+      "qid": "infoseek_val_00052023",
+      "category": "Category C (Multi-Section)",
+      "question": "Where is this insect native to?",
+      "action": "Kept Miomantis caffra + Expanded Top-2 Sections (Cat C)",
+      "old_pred": "New Zealand",
+      "new_pred": "Southern Africa",
+      "gt": "nz|Aotearoa|Aotearoa New Zealand|Dominion of New Zealand|New Zealand|\ud83c\uddf3\ud83c\uddff|NZ|NZL"
+    },
+    {
+      "qid": "infoseek_val_00054408",
+      "category": "Category B (Candidate 2)",
+      "question": "How heavy does this vehicle typically grow up to in terms of kilogram?",
+      "action": "Switched to Lamborghini Hurac\u00e1n (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Lamborghini Hurac\u00e1n)",
+      "old_pred": "1485 kg",
+      "new_pred": "1,230 kg",
+      "gt": "1520"
+    },
+    {
+      "qid": "infoseek_val_00057379",
+      "category": "Category B (Candidate 2)",
+      "question": "What is the conservation status of this bird? (The status is assigned by the international union for conservation of nature. Choose one among Endangered,Least Concern,Critically Endangered,extinct species,extinct in the wild,Vulnerable,Near Threatened,Data Deficient)",
+      "action": "Switched to Black-winged stilt (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Black-winged stilt)",
+      "old_pred": "Least Concern",
+      "new_pred": "Near Threatened",
+      "gt": "Least Concern|LC|LR/lc"
+    },
+    {
+      "qid": "infoseek_val_00059018",
+      "category": "Category B (Candidate 2)",
+      "question": "What is the immediately prior item that this bridge follows in a series?",
+      "action": "Switched to Statue of John of Nepomuk, Charles Bridge (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Statue of John of Nepom)",
+      "old_pred": "Judith Bridge",
+      "new_pred": "Statue",
+      "gt": "Judith bridge"
+    },
+    {
+      "qid": "infoseek_val_00060605",
+      "category": "Category C (Multi-Section)",
+      "question": "Which city or region does this town locate in?",
+      "action": "Kept Tzippori + Expanded Top-2 Sections (Cat C)",
+      "old_pred": "Jezreel Valley Regional Council",
+      "new_pred": "Jezreel Valley",
+      "gt": "Jezreel Valley Regional Council"
+    },
+    {
+      "qid": "infoseek_val_00066982",
+      "category": "Category B (Candidate 2)",
+      "question": "What is the length of this building in metre?",
+      "action": "Switched to Jameh Mosque of Natanz (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Jameh Mosque of Nat)",
+      "old_pred": "109",
+      "new_pred": "37",
+      "gt": "109"
+    },
+    {
+      "qid": "infoseek_val_00068004",
+      "category": "Category C (Multi-Section)",
+      "question": "What is the closest upper taxonomy of this plant?",
+      "action": "Kept Prunus virginiana + Expanded Top-2 Sections (Cat C)",
+      "old_pred": "Prunus",
+      "new_pred": "Rosaceae",
+      "gt": "Prunus|the Cherries"
+    },
+    {
+      "qid": "infoseek_val_00070176",
+      "category": "Category B (Candidate 2)",
+      "question": "Who is the architect of this building?",
+      "action": "Switched to Casa de les Punxes (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Casa de les Punxes)",
+      "old_pred": "Llu\u00eds Dom\u00e8nech i Montaner",
+      "new_pred": "Josep Puig i Cadafalch",
+      "gt": "Luis Domenech i Montaner|Llu\u00eds Dom\u00e8nech Montaner|Lluis Domenech i Montaner|Luis Dom\u00e8nech y Montaner|Luis Domenechi Montaner|Luis Dom\u00e8nech i Montaner|Lluis Domenech Montaner|Lluis Dom\u00e8nech i Montaner|Lu\u00eds Dom\u00e9nechi Montaner|Lluis Domenech y Montaner|Luis Dom\u00e9nech y Montaner|Lluis Dom\u00e8nech|Lluis Dom\u00e9nech y Montaner|Lluis Dom\u00e8nech y Montaner|Llu\u00eds Dom\u00e8nech i Fontaner|Lluis Domenech i Fontaner|Luis Domenech y Montaner|Llu\u00eds Dom\u00e8nech i Montaner|Lluis Domenech|Llu\u00eds Dom\u00e8nech y Montaner"
+    },
+    {
+      "qid": "infoseek_val_00071826",
+      "category": "Category B (Candidate 2)",
+      "question": "What is the location of this park?",
+      "action": "Switched to Rodrigo de Freitas Lagoon (Cat B LoRA: FineTuned13B\u2192Cand2 | gen: (B) Rodrigo de Freitas L)",
+      "old_pred": "S\u00e3o Crist\u00f3v\u00e3o neighborhood, Rio de Janeiro, Brazil",
+      "new_pred": "Rio de Janeiro",
+      "gt": "S\u00e3o Crist\u00f3v\u00e3o"
+    },
+    {
+      "qid": "infoseek_val_00072470",
+      "category": "Category C (Multi-Section)",
+      "question": "Who is the architect of this building?",
+      "action": "Kept Manila Cathedral + Expanded Top-2 Sections (Cat C)",
+      "old_pred": "Fernando H. Ocampo",
+      "new_pred": "Istituto Internazionale d'Arte Liturgica",
+      "gt": "Fernando Hizon Ocampo|Fernando H. Ocampo"
+    }
+  ]
+}

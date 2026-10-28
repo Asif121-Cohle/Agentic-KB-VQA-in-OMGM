@@ -1,0 +1,21 @@
+{
+  "model": "LLaVA-1.5-13B + LoRA Verifier (Fine-Tuned, Symmetric 6k Pairs)",
+  "lora_adapter": "/kaggle/input/datasets/alphacentauriv/agentic-vqa-ds/llava_13b_verifier_lora",
+  "tau": 0.025,
+  "total_queries": 1000,
+  "baseline_accuracy": 34.9,
+  "agentic_accuracy": 35.6,
+  "accuracy_improvement": 0.7,
+  "net_recovered_queries": 7,
+  "gross_recovered_queries": 27,
+  "degraded_queries": 20,
+  "preserved_correct_queries": 329,
+  "ambiguous_queries_triggered": 508,
+  "trigger_rate_pct": 50.8,
+  "switched_to_b_count": 197,
+  "cat_c_refreshed_count": 0,
+  "decision_win_rate_pct": 57.45,
+  "mcnemar_chi2": 0.766,
+  "average_calls_per_query": 1.51,
+  "loop_time_minutes": 37.26
+}
