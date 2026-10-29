@@ -119,7 +119,18 @@ Designed to run on standard single-GPU environments (e.g., Kaggle free-tier NVID
 
 ## 📄 Citation & Reference
 
-If you find this work or codebase helpful in your research, please refer to the manuscript located in `Latex Resources/IEEE_Conference_Template/`:
+If you find this work or codebase helpful in your research, please cite:
 
 > **A²MR: Adaptive Agentic Retrieval Breaking the Rigid Pipeline Bottleneck in Knowledge-Based Visual Question Answering**  
-> *Department of Computer Science and Engineering, Chittagong University of Engineering and Technology (CUET)*.
+> **Authors:** Md. Asif, Shahad Abir  
+> *Department of Computer Science and Engineering, Chittagong University of Engineering and Technology (CUET)*  
+> Manuscript located in `Latex Resources/IEEE_Conference_Template/`
+
+```bibtex
+@article{asif2026a2mr,
+  title={A$^2$MR: Adaptive Agentic Retrieval Breaking the Rigid Pipeline Bottleneck in Knowledge-Based Visual Question Answering},
+  author={Md. Asif and Shahad Abir},
+  journal={Department of Computer Science and Engineering, Chittagong University of Engineering and Technology (CUET)},
+  year={2026}
+}
+```
